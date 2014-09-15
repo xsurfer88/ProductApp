@@ -1,0 +1,75 @@
+{
+    "products":[
+        {"id":1,
+        "name":"iphone",
+        "prod_description":"iphone 6 plus is bigger",
+        "regular_price":749.00,
+        "sale_price":699.00,
+        "prod_photo":"iphone.jpg"
+        },
+        {"id":2,
+        "name":"ipad",
+        "prod_description":"ipad air is cool",
+        "regular_price":499.00,
+        "sale_price":399.00,
+        "prod_photo":"ipad.jpg"
+        },
+        {"id":3,
+        "name":"apple watch",
+        "prod_description":"apple watch is coming soon",
+        "regular_price":349.00,
+        "sale_price":299.00,
+        "prod_photo":"watch.jpg"
+        },
+        {"id":4,
+        "name":"ipod",
+        "prod_description":"ipod is cheaper",
+        "regular_price":149.00,
+        "sale_price":99.00,
+        "prod_photo":"ipod.jpg"
+        }
+    ],
+    "colors":[
+        {"id":1,
+         "name":"silver",
+        },
+        {"id":2,
+         "name":"gold",
+        },
+        {"id":3,
+         "name":"gray",
+        }
+    ],
+    "stores":[
+        {"id":1,
+         "name":"apple store",
+         "product_id":1,
+         "color_id":1,
+         "quantity":2
+        },
+        {"id":2,
+         "name":"apple store",
+         "product_id":2,
+         "color_id":1,
+         "quantity":3
+        },
+        {"id":3,
+         "name":"apple store",
+         "product_id":3,
+         "color_id":2,
+         "quantity":1
+        },
+        {"id":4,
+         "name":"apple store",
+         "product_id":4,
+         "color_id":3,
+         "quantity":4
+        },
+        {"id":5,
+         "name":"target",
+         "product_id":1,
+         "color_id":3,
+         "quantity":3
+        }
+    ]
+}
